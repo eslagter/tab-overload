@@ -1,0 +1,23 @@
+{
+  "name": "tab-overload",
+  "version": "1.0.0",
+  "description": "Intelligent WebExtension that stores opened tabs so they can be reopened at will",
+  "main": "background.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eslagter/tab-overload"
+  },
+  "author": "Erik Slagter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eslagter/tab-overload/issues"
+  },
+  "homepage": "https://github.com/eslagter/tab-overload",
+  "dependencies": {
+    "eslint": "^4.16.0"
+  }
+}

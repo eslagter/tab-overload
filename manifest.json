@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Tab overload",
+  "description": "Intelligent WebExtension that stores opened tabs so they can be reopened at will",
+  "homepage_url": "https://github.com/eslagter/tab-overload",
+  "version": "0.1",
+  "background": {
+      "scripts": ["background.js"]
+  },
+  "permissions": [
+    "tabs"
+  ],
+  "browser_action": {
+    "browser_style": true,
+    "default_title": "Tab overload",
+    "default_popup": "tabs.html"
+  }
+}
